@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-kitchen",
-      "name": "Kitchen",
+      "id": "0-entrykitchen",
+      "name": "Entry/Kitchen",
       "levels": [
         {
           "tileSize": 256,
@@ -24,15 +24,15 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 3.0278464111707386,
-        "pitch": 0.09513918274812738,
+        "yaw": 2.968472811632351,
+        "pitch": 0.03911449732933647,
         "fov": 1.3219339076578436
       },
       "linkHotspots": [
         {
-          "yaw": -2.4454666093906177,
-          "pitch": 0.17876124623335876,
-          "rotation": 1.5707963267948966,
+          "yaw": -2.4103550952733386,
+          "pitch": 0.2182408057168228,
+          "rotation": 0.7853981633974483,
           "target": "1-bedroom"
         }
       ],
@@ -62,18 +62,11 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 1.8789978076818779,
-        "pitch": -0.01996452945427052,
+        "yaw": -1.9500151727488664,
+        "pitch": -0.018417373629610267,
         "fov": 1.3219339076578436
       },
-      "linkHotspots": [
-        {
-          "yaw": 1.1494897914438997,
-          "pitch": 0.2883777868020694,
-          "rotation": 0,
-          "target": "0-kitchen"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     },
     {
@@ -100,25 +93,18 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 0,
-        "pitch": 0,
+        "yaw": -0.23508516455434503,
+        "pitch": 0.047568869772916855,
         "fov": 1.3219339076578436
       },
-      "linkHotspots": [
-        {
-          "yaw": 0.3106796154676754,
-          "pitch": 0.3170721827315788,
-          "rotation": 1.5707963267948966,
-          "target": "0-kitchen"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
-  "name": "Unit 5 - 39 Venice Street Mentone 3194",
+  "name": "Unit 5-39 Venice St Mentone",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": false,
+    "autorotateEnabled": true,
     "fullscreenButton": true,
     "viewControlButtons": true
   }
